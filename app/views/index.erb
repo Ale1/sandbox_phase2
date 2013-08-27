@@ -1,0 +1,35 @@
+<div class="container">
+  <h1>Welcome to Hotel California</h1>
+  <p>this is index.erb</p>
+
+    
+
+
+
+ <tr> 
+      <form name = "first_form" action="/cool_url" method ="get"   > 
+        <p> favorite animal:  <textarea rows=3 cols=20 name="fav_animal"></textarea></p>
+        <p> favorite color:   <input type ="text" name="fav_color"> </p>
+        <p> domesticated?: <input type="radio" name="domesticated" value=1> Yes 
+                           <input type="radio" name="domesticated" value=0> No </p>
+
+        <p> GET: <input type="submit" value="Submit!"> </p> 
+        </form>  
+    </tr>
+
+  <td> submit POST request to /cool_url: </td>
+      <td> 
+        <form name = "first_form" action="/cool_url" method ="post"   > 
+        <p> post.title? <input type="text" name="post[title]"></p>
+        <p> post.price? <input type="text" name="post[price]"></p>
+        <p> post.description? <textarea name="post[description]"></textarea>
+        <p> POST: <input type="submit" value="Submit!"> 
+        </form>  
+      </td>
+    </tr>
+
+
+</div>
+
+
+
